@@ -9,136 +9,151 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="14dp">
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingRight="4dp"
-            android:paddingLeft="4dp"
-            android:elevation="6dp"
+            android:layout_height="match_parent"
             android:layout_marginRight="4dp"
-            android:background="@drawable/background_border">
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:elevation="6dp"
+            android:onClick="callPancreasView"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitStart"
-                    android:src="@drawable/rsz_pancreas_02" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/rsz_pancreas_02" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/icons"
-                    android:background="@color/primary"
-                    android:text="Pâncreas"
-                    android:padding="8dp"
-                    android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Pâncreas"
+                android:textColor="@color/icons" />
 
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
-            android:orientation="vertical"
-            android:paddingRight="4dp"
-            android:paddingLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
             android:elevation="6dp"
-            android:background="@drawable/background_border">
+            android:onClick="callHipotView"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
+                android:layout_height="0dp"
+                android:layout_weight="4"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 android:src="@drawable/rsz_hipofise_02" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/icons"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
                 android:background="@color/primary"
-                android:text="Hipotálamo/Hipófise"
+                android:gravity="center"
                 android:padding="8dp"
-                android:gravity="center"/>
+                android:text="Hipotálamo/Hipófise"
+                android:textColor="@color/icons" />
 
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="14dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingRight="4dp"
-            android:paddingLeft="4dp"
-            android:elevation="6dp"
+            android:layout_height="match_parent"
             android:layout_marginRight="4dp"
-            android:background="@drawable/background_border">
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:elevation="6dp"
+            android:onClick="callTireoideView"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="4"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"
+                android:scaleType="fitStart"
                 android:src="@drawable/rsz_tireoide_02" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/icons"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
                 android:background="@color/primary"
-                android:text="Tireóide"
+                android:gravity="center"
                 android:padding="8dp"
-                android:gravity="center"/>
+                android:text="Tireóide"
+                android:textColor="@color/icons" />
 
         </LinearLayout>
 
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
-            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
             android:elevation="6dp"
-            android:paddingRight="4dp"
+            android:onClick="callAdrenalView"
+            android:orientation="vertical"
             android:paddingLeft="4dp"
-            android:background="@drawable/background_border">
+            android:paddingRight="4dp">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:scaleType="fitXY"
+                android:layout_height="0dp"
+                android:layout_weight="4"
                 android:adjustViewBounds="true"
+                android:scaleType="fitXY"
                 android:src="@drawable/rsz_adrenal_02" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/icons"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
                 android:background="@color/primary"
-                android:text="Glândula Adrenal"
+                android:gravity="center"
                 android:padding="8dp"
-                android:gravity="center"/>
+                android:text="Glândula Adrenal"
+                android:textColor="@color/icons" />
 
         </LinearLayout>
 
     </LinearLayout>
+
 
 </LinearLayout>
