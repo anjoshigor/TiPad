@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.anjoshigor.tipad.Perguntas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tituloPergunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    android:text="Pergunta 1"
+                    android:textColor="@color/icons"
+                    android:textSize="28sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/textoPergunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tituloPergunta"
+                    android:background="@color/primary"
+                    android:fontFamily="sans-serif-thin"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/texto_padrao"
+                    android:textColor="@color/icons"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+            <!--RESPOSTA 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/divider"
+                android:orientation="horizontal"
+                android:onClick="responder1">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:onClick="responder1"/>
+
+                <TextView
+                    android:id="@+id/resposta1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:fontFamily="sans-serif"
+                    android:padding="8dp"
+                    android:text="@string/texto_padrao"
+                    android:textColor="@color/primary_text"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <!--RESPOSTA 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/divider"
+                android:orientation="horizontal"
+                android:onClick="resposta2">
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/resposta2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:fontFamily="sans-serif"
+                    android:padding="8dp"
+                    android:text="@string/texto_padrao"
+                    android:textColor="@color/primary_text"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <!--RESPOSTA 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/divider"
+                android:orientation="horizontal"
+                android:onClick="resposta3">
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/resposta3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:fontFamily="sans-serif"
+                    android:padding="8dp"
+                    android:text="@string/texto_padrao"
+                    android:textColor="@color/primary_text"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <!--RESPOSTA4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/divider"
+                android:orientation="horizontal"
+                android:onClick="resposta4">
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/resposta4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:fontFamily="sans-serif"
+                    android:padding="8dp"
+                    android:text="@string/texto_padrao"
+                    android:textColor="@color/primary_text"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <!--BUTTON-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_margin="10dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/accent"
+                    android:textColor="@color/icons"
+                    android:text="@string/responder"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

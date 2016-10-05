@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,6 +16,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="4dp"
@@ -27,12 +29,12 @@
             android:paddingRight="4dp">
 
             <ImageView
+                android:id="@+id/pancreasImageView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="4"
                 android:adjustViewBounds="true"
-                android:scaleType="fitStart"
-                android:src="@drawable/rsz_pancreas_02" />
+                android:scaleType="centerInside" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,13 +43,14 @@
                 android:background="@color/primary"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Pâncreas"
+                android:text="@string/pancreas"
                 android:textColor="@color/icons" />
 
         </LinearLayout>
 
 
         <LinearLayout
+            android:layout_gravity="center"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
@@ -60,12 +63,12 @@
             android:paddingRight="4dp">
 
             <ImageView
+                android:id="@+id/hipofiseImageView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="4"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"
-                android:src="@drawable/rsz_hipofise_02" />
+                android:scaleType="centerInside"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -74,7 +77,7 @@
                 android:background="@color/primary"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Hipotálamo/Hipófise"
+                android:text="@string/hipofise"
                 android:textColor="@color/icons" />
 
         </LinearLayout>
@@ -96,17 +99,18 @@
             android:background="@drawable/background_border"
             android:elevation="6dp"
             android:onClick="callTireoideView"
+            android:layout_gravity="center"
             android:orientation="vertical"
             android:paddingLeft="4dp"
             android:paddingRight="4dp">
 
             <ImageView
+                android:id="@+id/tireoideImageView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="4"
                 android:adjustViewBounds="true"
-                android:scaleType="fitStart"
-                android:src="@drawable/rsz_tireoide_02" />
+                android:scaleType="centerInside"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -115,7 +119,7 @@
                 android:background="@color/primary"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Tireóide"
+                android:text="@string/tireoide"
                 android:textColor="@color/icons" />
 
         </LinearLayout>
@@ -126,6 +130,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:background="@drawable/background_border"
             android:elevation="6dp"
             android:onClick="callAdrenalView"
@@ -134,12 +139,12 @@
             android:paddingRight="4dp">
 
             <ImageView
+                android:id="@+id/adrenalImageView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="4"
                 android:adjustViewBounds="true"
-                android:scaleType="fitXY"
-                android:src="@drawable/rsz_adrenal_02" />
+                android:scaleType="centerInside"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -148,7 +153,7 @@
                 android:background="@color/primary"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Glândula Adrenal"
+                android:text="@string/adrenal"
                 android:textColor="@color/icons" />
 
         </LinearLayout>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">TiPAd</string>
+    <string name="jogar">Jogar</string>
+    <string name="curiosidades">Curiosidades</string>
+    <string name="pancreas">Pâncreas</string>
+    <string name="tireoide">Tireóide</string>
+    <string name="hipofise">Hipófise / Hipotálamo</string>
+    <string name="adrenal">Glândula Adrenal</string>
+    <string name="title_activity_perguntas">Perguntas</string>
+    <string name="responder">Responder</string>
+    <string name="texto_padrao">
+        Se tratando da Doença de Addison, (que trata-se da destruição das células do córtex adrenal)
+        qual o tratamento mais adequado que deve-se tomar ao se tratar dessa doença?
+    </string>
+    <string name="action_settings">Configurações</string>
 </resources>

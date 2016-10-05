@@ -8,4 +8,21 @@
         <item name="colorAccent">@color/accent</item>
     </style>
 
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="RespostaCinza" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">10</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
