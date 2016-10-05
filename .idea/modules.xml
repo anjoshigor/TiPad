@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TiPAd.iml" filepath="$PROJECT_DIR$/TiPAd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TiPad.iml" filepath="$PROJECT_DIR$/TiPad.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

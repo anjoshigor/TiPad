@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".Pancreas" />
         <activity
-            android:name=".Perguntas"
+            android:name=".PerguntasActivity"
             android:theme="@style/AppTheme.NoBar"/>
     </application>
 

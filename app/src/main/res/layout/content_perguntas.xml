@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.anjoshigor.tipad.Perguntas">
+    tools:context="com.anjoshigor.tipad.PerguntasActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -51,6 +51,7 @@
             </RelativeLayout>
             <!--RESPOSTA 1-->
             <LinearLayout
+                android:id="@+id/card1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -75,24 +76,27 @@
                     android:padding="8dp"
                     android:text="@string/texto_padrao"
                     android:textColor="@color/primary_text"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+                    android:onClick="responder1"/>
             </LinearLayout>
 
             <!--RESPOSTA 2-->
             <LinearLayout
+                android:id="@+id/card2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@color/divider"
                 android:orientation="horizontal"
-                android:onClick="resposta2">
+                android:onClick="responder2">
 
                 <CheckBox
                     android:id="@+id/checkbox2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="responder2"/>
 
                 <TextView
                     android:id="@+id/resposta2"
@@ -103,23 +107,26 @@
                     android:padding="8dp"
                     android:text="@string/texto_padrao"
                     android:textColor="@color/primary_text"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+                    android:onClick="responder2"/>
             </LinearLayout>
             <!--RESPOSTA 3-->
             <LinearLayout
+                android:id="@+id/card3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@color/divider"
                 android:orientation="horizontal"
-                android:onClick="resposta3">
+                android:onClick="responder3">
 
                 <CheckBox
                     android:id="@+id/checkbox3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="responder3"/>
 
                 <TextView
                     android:id="@+id/resposta3"
@@ -130,23 +137,26 @@
                     android:padding="8dp"
                     android:text="@string/texto_padrao"
                     android:textColor="@color/primary_text"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+                    android:onClick="responder3"/>
             </LinearLayout>
             <!--RESPOSTA4-->
             <LinearLayout
+                android:id="@+id/card4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@color/divider"
                 android:orientation="horizontal"
-                android:onClick="resposta4">
+                android:onClick="responder4">
 
                 <CheckBox
                     android:id="@+id/checkbox4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="responder4"/>
 
                 <TextView
                     android:id="@+id/resposta4"
@@ -157,7 +167,8 @@
                     android:padding="8dp"
                     android:text="@string/texto_padrao"
                     android:textColor="@color/primary_text"
-                    android:textStyle="normal" />
+                    android:textStyle="normal"
+                    android:onClick="responder4"/>
             </LinearLayout>
             <!--BUTTON-->
             <LinearLayout
@@ -175,7 +186,8 @@
                     android:layout_gravity="center"
                     android:background="@color/accent"
                     android:textColor="@color/icons"
-                    android:text="@string/responder"/>
+                    android:text="@string/responder"
+                    android:onClick="submeter"/>
 
             </LinearLayout>
         </LinearLayout>

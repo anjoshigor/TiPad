@@ -36,7 +36,7 @@ public class Pancreas extends AppCompatActivity {
                 curImage.setImageDrawable(getResources().getDrawable(R.drawable.rsz_question_mark));
                 toastP = Toast.makeText(getApplicationContext(), "BUTAO Jogar", Toast.LENGTH_LONG);
                 toastC = Toast.makeText(getApplicationContext(), "BUTAO Curiosidades", Toast.LENGTH_LONG);
-                intentP = new Intent(getBaseContext(), Perguntas.class);
+                intentP = new Intent(getBaseContext(), PerguntasActivity.class);
                 intentP.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             }
         });
