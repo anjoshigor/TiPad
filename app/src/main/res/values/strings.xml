@@ -15,4 +15,37 @@
         qual o tratamento mais adequado que deve-se tomar ao se tratar dessa doença?
     </string>
     <string name="action_settings">Configurações</string>
+
+    <string name="curPancreas">
+        O pâncreas é um órgão com aproximadamente 15 cm de comprimento, 04 de altura e 02 de espessura (formato alongado), dividido em cabeça, corpo e cauda, localizado na cavidade abdominal abaixo do estômago, interligado por um canal (ducto de Wirsung) à primeira porção do intestino delgado, ou seja, o duodeno. Trata-se de uma glândula anfícrina (mista), associada ao sistema digestório humano, com uma porção endócrina produzindo hormônio, e outra porção com função exócrina responsável pela síntese do suco pancreático, contendo enzimas que atuam na digestão de carboidratos (amilase pancreática), lipídeos (lípase pancreática) e proteínas (proteases: tripsina, quimiotripsina e carboxipeptidase).
+        \n\n
+        Vascularização do pâncreas
+        \n
+        O pâncreas é vascularizado pelas artérias pancreaticoduodenais. A drenagem venosa ocorre através das veias pancreáticas.
+        \n\n
+        Tipos de tecido do pâncreas e suas funções:
+        \n
+        - Ilhéus de Langerhans (região endócrina): células do pâncreas responsáveis pela secreção de hormônios que fazem o controle dos níveis de glicose no sangue.
+        \n
+        - Ácino Pancreático (região exócrina): fabrica enzimas que atuam no processo de digestão alimentar.
+        \n\n
+        Câncer de Pâncreas
+        \n
+        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos
+        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.
+        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas.
+
+    </string>
+
+    <string name="curHipot">
+        Teste
+    </string>
+
+    <string name="curTireoide">
+        Teste
+    </string>
+
+    <string name="curAdrenal">
+        Teste
+    </string>
 </resources>

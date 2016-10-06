@@ -20,10 +20,10 @@
         <activity
             android:name=".PerguntasActivity"
             android:theme="@style/AppTheme.NoBar" />
-
-        <activity android:name=".ResultadoActivity"
-            android:theme="@style/AppTheme.NoBar"/>
-
+        <activity
+            android:name=".ResultadoActivity"
+            android:theme="@style/AppTheme.NoBar" />
+        <activity android:name=".CuriosidadeActivity"></activity>
     </application>
 
 </manifest>

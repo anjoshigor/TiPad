@@ -15,7 +15,7 @@ public class EscolhaActivity extends AppCompatActivity {
 
     Toast toastC;
     ImageView playImage, curImage;
-    Intent intentP;
+    Intent intentP, intentC;
     String assunto;
 
     @Override
@@ -39,7 +39,10 @@ public class EscolhaActivity extends AppCompatActivity {
                 curImage.setImageDrawable(getResources().getDrawable(R.drawable.rsz_question_mark));
                 toastC = Toast.makeText(getApplicationContext(), "BUTAO Curiosidades", Toast.LENGTH_LONG);
                 intentP = new Intent(getBaseContext(), PerguntasActivity.class);
+                intentC = new Intent(getBaseContext(), CuriosidadeActivity.class);
+                intentC.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intentP.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intentC.putExtra("assunto", assunto);
                 intentP.putExtra("assunto", assunto);
             }
         });
@@ -51,7 +54,8 @@ public class EscolhaActivity extends AppCompatActivity {
     }
 
     public void callCurView(View v) {
-        toastC.show();
+
+        startActivity(intentC);
     }
 
 
