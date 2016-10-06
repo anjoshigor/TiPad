@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pancreas" />
+        <activity android:name=".EscolhaActivity" />
         <activity
             android:name=".PerguntasActivity"
             android:theme="@style/AppTheme.NoBar"/>

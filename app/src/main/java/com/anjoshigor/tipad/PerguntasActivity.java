@@ -1,11 +1,13 @@
 package com.anjoshigor.tipad;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
@@ -15,26 +17,61 @@ import android.widget.Toast;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class PerguntasActivity extends AppCompatActivity {
 
-
+    List<Pergunta> listaDePerguntas;
     ArrayList<TextView> textViews;
     ArrayList<CheckBox> checkBoxes;
     ArrayList<LinearLayout> cards;
     ArrayList<Boolean> flags;
-
-
+    String assunto;
+    TextView textoPergunta, tituloPergunta;
+    Pergunta perguntaAtual;
+    int numberOfTheQuestion = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_perguntas);
+        textoPergunta = (TextView) findViewById(R.id.textoPergunta);
+        tituloPergunta = (TextView) findViewById(R.id.tituloPergunta);
         textViews = new ArrayList<>(4);
         checkBoxes = new ArrayList<>(4);
         cards = new ArrayList<>(4);
         flags = new ArrayList<>(4);
+        Intent intent = getIntent();
+        assunto = intent.getExtras().getString("assunto");
         bindViews();
+        Database db=new Database(this);
+        listaDePerguntas=db.getAllQuestionsByAssunto(assunto);
+        //randomizando
+        Collections.shuffle(listaDePerguntas);
+        perguntaAtual=listaDePerguntas.get(numberOfTheQuestion);
+        Log.i("PERGUNTAS", "Tamanho Lista de perguntas: "+String.valueOf(listaDePerguntas.size()));
+
+                /*listaDePerguntas.get(0).getId()+", "
+                +listaDePerguntas.get(1).getId()+", "
+                +listaDePerguntas.get(2).getId()+", "
+                +listaDePerguntas.get(3).getId()+", "
+                +listaDePerguntas.get(4).getId());*/
+        updatePergunta(perguntaAtual);
+
+
+    }
+
+
+    private void updatePergunta(Pergunta p){
+        textoPergunta.setText(p.getPergunta());
+        textViews.get(0).setText(p.getopcao1());
+        textViews.get(1).setText(p.getopcao2());
+        textViews.get(2).setText(p.getopcao3());
+        textViews.get(3).setText(p.getopcao4());
+        numberOfTheQuestion++;
+        String textUpdt = "Pergunta "+String.valueOf(numberOfTheQuestion);
+        tituloPergunta.setText(textUpdt);
 
     }
 
@@ -128,11 +165,30 @@ public class PerguntasActivity extends AppCompatActivity {
 
     public void submeter(View v) {
         v.setBackgroundColor(getResources().getColor(R.color.accent));
+        //identifica qual a resposta escolhida
         int i = flags.indexOf(true);
+
         if(i>=0) {
-            Log.i("PERGUNTAS ACTIVITY", "Resposta Escolhida: " + String.valueOf(i));
+
             String respostaEscolhida = String.valueOf(textViews.get(i).getText());
-            Log.i("PERGUNTAS ACTIVITY", "Resposta Escolhida: " + respostaEscolhida);
+            Toast acertou = Toast.makeText(getApplicationContext(), "Acertou!", Toast.LENGTH_SHORT);
+            acertou.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+            resetCard(i);
+
+            if(perguntaAtual.getresposta().equals(respostaEscolhida)){
+                acertou.show();
+            } else {
+                acertou.setText("Errou!");
+                acertou.show();
+            }
+            if(numberOfTheQuestion<5) {
+                perguntaAtual = listaDePerguntas.get(numberOfTheQuestion);
+                updatePergunta(perguntaAtual);
+
+            } else {
+                acertou.setText("Resultado!");
+                acertou.show();
+            }
         } else {
             Toast toastEscolha = Toast.makeText(getApplicationContext(), "Escolha uma opção :)", Toast.LENGTH_SHORT);
             toastEscolha.show();

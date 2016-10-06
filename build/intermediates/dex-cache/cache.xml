@@ -3,93 +3,93 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="5e5ad302b3e94576a83c49d310a7d8e98e1d9095">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_483f69a758fee7eca3f2a5894cb0b8c3075469f1\classes.dex" />
+        sha1="a3ec5fd0b8dbc0793c8f10db32404ad9e061f9f4">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_58bbcc163ac7ec681b419ace7cfa83f8f0d22c92/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_de716c74e7332519998778db67916f708507aae5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3923179e30a79f41b9cc4b82bdcd1f55226da23d">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_8f3dd1721c7f28811d4ed2b947c2ac5911113040\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_1450387d94ea6ec178b3338527ef237c88a652b4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_6baa5eae89e31be00e308e93107484a08b1a8a54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_85f87833f3d7ba9d7fb32514d4d6e463d116aca8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_e533ad8fac841a9424f7b7d53bf5530ee8150540\classes.dex" />
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_504faa6b5cf4ac876a837ef5f6ffbf82b8bcae6f/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_6a136989f8bd29d4b212bf23427642710a7d06e3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_11a16667c15e4804b7c94ca2e7c390840f548797\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\aluno\Documents\TiPad\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="C:\Users\aluno\Documents\TiPad\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_43361acf67b43014a7be3465059e057dbd95f13c\classes.dex" />
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_95cbb86ce0beb3ff02b8749b8a71fdeba4b8ed94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_6a77670f6102da5a534a68c883654da9231080dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4da54a525c16f9538f645efaca909c12af450b5f">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d71ac313a0e71dd83b8afeb0962400d8f96a9413/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_8ce19cfe2a514077e601eed3a00467e432e1e7c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_44601110e5e7df47193d29aeb716c865a158c8e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_e94b83e3df999c7335c25cb1829025294b9b66c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_3c53089d6c740735e5c6259f5ca88a0ae93448b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_718ba5f5d83f154a8dc355a063c948366dc22774/classes.dex" />
     </item>
 
 </items>
