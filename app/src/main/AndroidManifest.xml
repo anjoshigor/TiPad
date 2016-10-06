@@ -19,7 +19,11 @@
         <activity android:name=".EscolhaActivity" />
         <activity
             android:name=".PerguntasActivity"
+            android:theme="@style/AppTheme.NoBar" />
+
+        <activity android:name=".ResultadoActivity"
             android:theme="@style/AppTheme.NoBar"/>
+
     </application>
 
 </manifest>

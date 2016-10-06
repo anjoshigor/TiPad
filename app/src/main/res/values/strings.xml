@@ -7,7 +7,9 @@
     <string name="hipofise">Hipófise / Hipotálamo</string>
     <string name="adrenal">Glândula Adrenal</string>
     <string name="title_activity_perguntas">Perguntas</string>
+    <string name="novamente">Jogar Novamente</string>
     <string name="responder">Responder</string>
+    <string name="resultado">Resultado</string>
     <string name="texto_padrao">
         Se tratando da Doença de Addison, (que trata-se da destruição das células do córtex adrenal)
         qual o tratamento mais adequado que deve-se tomar ao se tratar dessa doença?

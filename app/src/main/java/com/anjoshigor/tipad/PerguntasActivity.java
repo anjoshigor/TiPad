@@ -30,7 +30,9 @@ public class PerguntasActivity extends AppCompatActivity {
     String assunto;
     TextView textoPergunta, tituloPergunta;
     Pergunta perguntaAtual;
+    Intent intentP;
     int numberOfTheQuestion = 0;
+    int nota = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class PerguntasActivity extends AppCompatActivity {
         checkBoxes = new ArrayList<>(4);
         cards = new ArrayList<>(4);
         flags = new ArrayList<>(4);
+
         Intent intent = getIntent();
         assunto = intent.getExtras().getString("assunto");
         bindViews();
@@ -50,15 +53,9 @@ public class PerguntasActivity extends AppCompatActivity {
         //randomizando
         Collections.shuffle(listaDePerguntas);
         perguntaAtual=listaDePerguntas.get(numberOfTheQuestion);
-        Log.i("PERGUNTAS", "Tamanho Lista de perguntas: "+String.valueOf(listaDePerguntas.size()));
-
-                /*listaDePerguntas.get(0).getId()+", "
-                +listaDePerguntas.get(1).getId()+", "
-                +listaDePerguntas.get(2).getId()+", "
-                +listaDePerguntas.get(3).getId()+", "
-                +listaDePerguntas.get(4).getId());*/
         updatePergunta(perguntaAtual);
-
+        intentP = new Intent(getBaseContext(), ResultadoActivity.class);
+        intentP.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
     }
 
@@ -81,6 +78,7 @@ public class PerguntasActivity extends AppCompatActivity {
         flags.set(2,false);
         flags.set(3,false);
     }
+
     private void bindViews(){
         textViews.add((TextView) findViewById(R.id.resposta1));
         textViews.add((TextView) findViewById(R.id.resposta2));
@@ -176,6 +174,7 @@ public class PerguntasActivity extends AppCompatActivity {
             resetCard(i);
 
             if(perguntaAtual.getresposta().equals(respostaEscolhida)){
+                nota++;
                 acertou.show();
             } else {
                 acertou.setText("Errou!");
@@ -186,8 +185,8 @@ public class PerguntasActivity extends AppCompatActivity {
                 updatePergunta(perguntaAtual);
 
             } else {
-                acertou.setText("Resultado!");
-                acertou.show();
+                intentP.putExtra("nota", String.valueOf(nota));
+                startActivity(intentP);
             }
         } else {
             Toast toastEscolha = Toast.makeText(getApplicationContext(), "Escolha uma opção :)", Toast.LENGTH_SHORT);

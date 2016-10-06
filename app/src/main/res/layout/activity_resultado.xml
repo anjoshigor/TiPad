@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resultado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark"
+    android:orientation="vertical"
+    tools:context="com.anjoshigor.tipad.ResultadoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_weight="5"
+        android:scaleType="centerInside"
+        android:src="@drawable/trophy"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-"
+            android:textAllCaps="true"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:text="@string/resultado"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/nota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="46sp"
+            android:textAllCaps="true"
+            android:textColor="@color/icons"
+            android:textStyle="bold"
+            android:text="5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textAllCaps="true"
+            android:textColor="@color/icons"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:text="/5"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_height="0dp"
+        android:text="@string/novamente"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
