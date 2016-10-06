@@ -3,29 +3,11 @@
 
     <item
         is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_44601110e5e7df47193d29aeb716c865a158c8e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_e94b83e3df999c7335c25cb1829025294b9b66c7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a04b05fe1216b150a7608de158e6ea79329e0936">
+        sha1="a3b352109a7f51a1c27f54e685ca75ef7f75d0cd">
         <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_58bbcc163ac7ec681b419ace7cfa83f8f0d22c92/classes.dex" />
     </item>
     <item
@@ -61,17 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="14c8b9111f88a97846cee1d9a3ee8badfcf28d50">
+        sha1="9786045805643c9e57024576ef1eb91a62142661">
         <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d71ac313a0e71dd83b8afeb0962400d8f96a9413/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_3c53089d6c740735e5c6259f5ca88a0ae93448b6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +54,33 @@
         revision="23.0.3"
         sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
         <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_8ce19cfe2a514077e601eed3a00467e432e1e7c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_44601110e5e7df47193d29aeb716c865a158c8e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_e94b83e3df999c7335c25cb1829025294b9b66c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anjoshigor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_3c53089d6c740735e5c6259f5ca88a0ae93448b6/classes.dex" />
     </item>
     <item
         is-multidex="true"

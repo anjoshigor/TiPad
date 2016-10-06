@@ -16,36 +16,121 @@
     </string>
     <string name="action_settings">Configurações</string>
 
-    <string name="curPancreas">
-        O pâncreas é um órgão com aproximadamente 15 cm de comprimento, 04 de altura e 02 de espessura (formato alongado), dividido em cabeça, corpo e cauda, localizado na cavidade abdominal abaixo do estômago, interligado por um canal (ducto de Wirsung) à primeira porção do intestino delgado, ou seja, o duodeno. Trata-se de uma glândula anfícrina (mista), associada ao sistema digestório humano, com uma porção endócrina produzindo hormônio, e outra porção com função exócrina responsável pela síntese do suco pancreático, contendo enzimas que atuam na digestão de carboidratos (amilase pancreática), lipídeos (lípase pancreática) e proteínas (proteases: tripsina, quimiotripsina e carboxipeptidase).
-        \n\n
-        Vascularização do pâncreas
+    <string name="introPancreas">
+        O pâncreas é um órgão com aproximadamente 15 cm de comprimento, 04 de altura e 02 de espessura (formato alongado), dividido em cabeça, corpo e cauda, localizado na cavidade abdominal abaixo do estômago, interligado por um canal (ducto de Wirsung) à primeira porção do intestino delgado, ou seja, o duodeno.\n\n
+        Trata-se de uma glândula anfícrina (mista), associada ao sistema digestório humano, com uma porção endócrina produzindo hormônio, e outra porção com função exócrina responsável pela síntese do suco pancreático, contendo enzimas que atuam na digestão de carboidratos (amilase pancreática), lipídeos (lípase pancreática) e proteínas (proteases: tripsina, quimiotripsina e carboxipeptidase). O pâncreas é vascularizado pelas artérias pancreaticoduodenais. A drenagem venosa ocorre através das veias pancreáticas.\n\n
+        Os tipos de tecidos do pâncreas são: Ilhéus de Langerhans (região endócrina): células do pâncreas responsáveis pela secreção de hormônios que fazem o controle dos níveis de glicose no sangue e ácino Pancreático (região exócrina): fabrica enzimas que atuam no processo de digestão alimentar.\n
+    </string>
+
+    <string name="doencaPancreas1">
+        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
         \n
-        O pâncreas é vascularizado pelas artérias pancreaticoduodenais. A drenagem venosa ocorre através das veias pancreáticas.
-        \n\n
-        Tipos de tecido do pâncreas e suas funções:
+        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
         \n
-        - Ilhéus de Langerhans (região endócrina): células do pâncreas responsáveis pela secreção de hormônios que fazem o controle dos níveis de glicose no sangue.
+        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
+    </string>
+
+    <string name="doencaPancreas2">
+        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
+        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
         \n
-        - Ácino Pancreático (região exócrina): fabrica enzimas que atuam no processo de digestão alimentar.
-        \n\n
+        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
+        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
+
+    </string>
+
+    <string name="tDoencaPancreas1">
         Câncer de Pâncreas
+    </string>
+
+    <string name="tDoencaPancreas2">
+        Diabetes 1 e 2
+    </string>
+
+    <string name="introHipot">
+        Teste
+    </string>
+
+     <string name="doencaHipot1">
+        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
         \n
-        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos
-        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.
-        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas.
+        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
+        \n
+        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
+    </string>
+
+    <string name="doencaHipot2">
+        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
+        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
+        \n
+        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
+        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
 
     </string>
 
-    <string name="curHipot">
+    <string name="tDoencaHipot1">
+        Câncer de Pâncreas
+    </string>
+
+    <string name="tDoencaHipot2">
+        Diabetes 1 e 2
+    </string>
+
+    <string name="introTireoide">
         Teste
     </string>
 
-    <string name="curTireoide">
+    <string name="doencaTireoide1">
+        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
+        \n
+        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
+        \n
+        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
+    </string>
+
+    <string name="doencaTireoide2">
+        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
+        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
+        \n
+        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
+        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
+
+    </string>
+
+    <string name="tDoencaTireoide1">
+        Câncer de Pâncreas
+    </string>
+
+    <string name="tDoencaTireoide2">
+        Diabetes 1 e 2
+    </string>
+
+    <string name="introAdrenal">
         Teste
     </string>
 
-    <string name="curAdrenal">
-        Teste
+     <string name="doencaAdrenal1">
+        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
+        \n
+        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
+        \n
+        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
+    </string>
+
+    <string name="doencaAdrenal2">
+        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
+        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
+        \n
+        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
+        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
+
+    </string>
+
+    <string name="tDoencaAdrenal1">
+        Câncer de Pâncreas
+    </string>
+
+    <string name="tDoencaAdrenal2">
+        Diabetes 1 e 2
     </string>
 </resources>

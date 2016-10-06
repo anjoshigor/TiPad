@@ -9,19 +9,77 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.anjoshigor.tipad.CuriosidadeActivity">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <TextView
-                android:id="@+id/curTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-thin"
-                android:textStyle="bold"
-                android:text="@string/texto_padrao"/>
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Introdução"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/introTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:text="@string/introPancreas"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doencaTituloTextView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Doença 1"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doencaTextView1"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Doença1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doencaTituloTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Doença 2"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/doencaTextView2"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Doença2"
+                android:textStyle="bold" />
         </LinearLayout>
 
     </ScrollView>
