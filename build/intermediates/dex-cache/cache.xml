@@ -2,94 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a3ec5fd0b8dbc0793c8f10db32404ad9e061f9f4">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_58bbcc163ac7ec681b419ace7cfa83f8f0d22c92/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_504faa6b5cf4ac876a837ef5f6ffbf82b8bcae6f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.2.1_95cbb86ce0beb3ff02b8749b8a71fdeba4b8ed94/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_6a77670f6102da5a534a68c883654da9231080dc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4da54a525c16f9538f645efaca909c12af450b5f">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d71ac313a0e71dd83b8afeb0962400d8f96a9413/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_8ce19cfe2a514077e601eed3a00467e432e1e7c8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_44601110e5e7df47193d29aeb716c865a158c8e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_e94b83e3df999c7335c25cb1829025294b9b66c7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/anjoshigor/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_3c53089d6c740735e5c6259f5ca88a0ae93448b6/classes.dex" />
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_3c53089d6c740735e5c6259f5ca88a0ae93448b6.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_95cbb86ce0beb3ff02b8749b8a71fdeba4b8ed94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b8a1ace420821834d237d39f7b00b81aec096714">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_58bbcc163ac7ec681b419ace7cfa83f8f0d22c92.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_718ba5f5d83f154a8dc355a063c948366dc22774/classes.dex" />
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_718ba5f5d83f154a8dc355a063c948366dc22774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_8ce19cfe2a514077e601eed3a00467e432e1e7c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_e94b83e3df999c7335c25cb1829025294b9b66c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72728d047bdb74b85098ab85ac3e2438417b2a33">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/instant-run_d71ac313a0e71dd83b8afeb0962400d8f96a9413.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_44601110e5e7df47193d29aeb716c865a158c8e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_504faa6b5cf4ac876a837ef5f6ffbf82b8bcae6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_6a77670f6102da5a534a68c883654da9231080dc.jar" />
     </item>
 
 </items>
