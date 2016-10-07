@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a3b352109a7f51a1c27f54e685ca75ef7f75d0cd">
+        sha1="d6b26f3042902c41bee06ddf497f12b82319cb46">
         <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_58bbcc163ac7ec681b419ace7cfa83f8f0d22c92/classes.dex" />
     </item>
     <item
@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="9786045805643c9e57024576ef1eb91a62142661">
+        sha1="29eec667f490483b4c1b5fb9e5853705862887ed">
         <dex dex="/home/anjoshigor/Documents/TiPAd/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d71ac313a0e71dd83b8afeb0962400d8f96a9413/classes.dex" />
     </item>
     <item

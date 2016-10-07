@@ -11,17 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc112485-e179-49c5-9719-e5b46e22ccbb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/white_border.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/white_border_red.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/certa_toast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/errada_toast.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/CuriosidadeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/CuriosidadeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
@@ -61,8 +67,8 @@
       <file leaf-file-name="PerguntasActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
               <folding>
                 <element signature="method#updatePergunta#0;class#PerguntasActivity#0" expanded="false" />
                 <element signature="method#resetFlags#0;class#PerguntasActivity#0" expanded="false" />
@@ -80,31 +86,21 @@
       <file leaf-file-name="ResultadoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_curiosidade.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
-                <element signature="e#1605#1628#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_resultado.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -112,87 +108,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EscolhaActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/EscolhaActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="81" column="322" selection-start-line="81" selection-start-column="322" selection-end-line="81" selection-end-column="322" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addQuestion#0;class#Database#0" expanded="false" />
-                <element signature="e#17218#17228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CuriosidadeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/CuriosidadeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="e#1129#1177#0" expanded="true" />
-                <element signature="e#1212#1262#0" expanded="true" />
-                <element signature="e#1297#1347#0" expanded="true" />
-                <element signature="e#1388#1439#0" expanded="true" />
-                <element signature="e#1480#1531#0" expanded="true" />
-                <element signature="e#1634#1679#0" expanded="true" />
-                <element signature="e#1714#1761#0" expanded="true" />
-                <element signature="e#1796#1843#0" expanded="true" />
-                <element signature="e#1884#1932#0" expanded="true" />
-                <element signature="e#1973#2021#0" expanded="true" />
-                <element signature="e#2121#2168#0" expanded="true" />
-                <element signature="e#2203#2252#0" expanded="true" />
-                <element signature="e#2287#2336#0" expanded="true" />
-                <element signature="e#2377#2427#0" expanded="true" />
-                <element signature="e#2468#2518#0" expanded="true" />
-                <element signature="e#2610#2658#0" expanded="true" />
-                <element signature="e#2693#2743#0" expanded="true" />
-                <element signature="e#2778#2828#0" expanded="true" />
-                <element signature="e#2869#2920#0" expanded="true" />
-                <element signature="e#2961#3012#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+            <state relative-caret-position="132">
+              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
               <folding>
                 <element signature="e#862#2047#0" expanded="false" />
                 <element signature="e#2053#3178#0" expanded="false" />
                 <element signature="e#3184#5291#0" expanded="false" />
                 <element signature="e#5297#5370#0" expanded="false" />
                 <element signature="e#5376#5445#0" expanded="false" />
-                <element signature="e#5451#5505#0" expanded="false" />
-                <element signature="e#5512#6634#0" expanded="false" />
-                <element signature="e#6640#8744#0" expanded="false" />
-                <element signature="e#8750#8820#0" expanded="false" />
-                <element signature="e#8826#8892#0" expanded="false" />
-                <element signature="e#8898#8955#0" expanded="false" />
-                <element signature="e#8961#10086#0" expanded="false" />
-                <element signature="e#10092#12199#0" expanded="false" />
-                <element signature="e#12205#12278#0" expanded="false" />
-                <element signature="e#12284#12353#0" expanded="false" />
-                <element signature="e#12359#12415#0" expanded="false" />
-                <element signature="e#12422#13546#0" expanded="false" />
-                <element signature="e#13552#15658#0" expanded="false" />
-                <element signature="e#15664#15736#0" expanded="false" />
-                <element signature="e#15742#15810#0" expanded="false" />
+                <element signature="e#7621#9725#0" expanded="false" />
+                <element signature="e#9731#9801#0" expanded="false" />
+                <element signature="e#9807#9873#0" expanded="false" />
+                <element signature="e#9879#9936#0" expanded="false" />
+                <element signature="e#9942#11067#0" expanded="false" />
+                <element signature="e#11073#13180#0" expanded="false" />
+                <element signature="e#13186#13259#0" expanded="false" />
+                <element signature="e#13265#13334#0" expanded="false" />
+                <element signature="e#13340#13396#0" expanded="false" />
+                <element signature="e#13403#14527#0" expanded="false" />
+                <element signature="e#14533#16639#0" expanded="false" />
+                <element signature="e#16645#16717#0" expanded="false" />
+                <element signature="e#16723#16791#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addQuestion#0;class#Database#0" expanded="false" />
+                <element signature="e#33382#33392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,6 +170,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="ASClass" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -1737,14 +1704,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Pergunta.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/EscolhaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/CuriosidadeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/certa_toast.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/white_border.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/white_border_red.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/errada_toast.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/EscolhaActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/CuriosidadeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml" />
       </list>
     </option>
   </component>
@@ -1848,24 +1819,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TiPAd" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -1919,6 +1872,10 @@
   <component name="RecentsManager">
     <key name="android.template.packageName">
       <recent name="com.anjoshigor.tipad" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
@@ -2235,7 +2192,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4321608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4321608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2247,7 +2204,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64991623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2380,7 +2337,7 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addQuestions#0;class#Database#0" expanded="false" />
-            <element signature="e#17218#17228#0" expanded="true" />
+            <element signature="e#33382#33392#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2470,17 +2427,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="49" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -2489,87 +2435,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="e#1319#1338#0" expanded="true" />
-            <element signature="e#2557#2576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/EscolhaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#updatePergunta#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#resetFlags#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#bindViews#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#resetCard#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#responder1#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#responder2#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#responder3#0;class#PerguntasActivity#0" expanded="false" />
-            <element signature="method#responder4#0;class#PerguntasActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding>
-            <element signature="e#862#2047#0" expanded="false" />
-            <element signature="e#2053#3178#0" expanded="false" />
-            <element signature="e#3184#5291#0" expanded="false" />
-            <element signature="e#5297#5370#0" expanded="false" />
-            <element signature="e#5376#5445#0" expanded="false" />
-            <element signature="e#5451#5505#0" expanded="false" />
-            <element signature="e#5512#6634#0" expanded="false" />
-            <element signature="e#6640#8744#0" expanded="false" />
-            <element signature="e#8750#8820#0" expanded="false" />
-            <element signature="e#8826#8892#0" expanded="false" />
-            <element signature="e#8898#8955#0" expanded="false" />
-            <element signature="e#8961#10086#0" expanded="false" />
-            <element signature="e#10092#12199#0" expanded="false" />
-            <element signature="e#12205#12278#0" expanded="false" />
-            <element signature="e#12284#12353#0" expanded="false" />
-            <element signature="e#12359#12415#0" expanded="false" />
-            <element signature="e#12422#13546#0" expanded="false" />
-            <element signature="e#13552#15658#0" expanded="false" />
-            <element signature="e#15664#15736#0" expanded="false" />
-            <element signature="e#15742#15810#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2602,22 +2472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="81" column="322" selection-start-line="81" selection-start-column="322" selection-end-line="81" selection-end-column="322" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addQuestion#0;class#Database#0" expanded="false" />
-            <element signature="e#17218#17228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_curiosidade.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="479">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
           <folding>
             <element signature="e#1605#1628#0" expanded="true" />
           </folding>
@@ -2625,6 +2483,164 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/java/lang/annotation/RetentionPolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/java/lang/annotation/Retention.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/widget/Toast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/certa_toast.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/white_border_red.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/errada_toast.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/ResultadoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#949#950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/white_border.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_resultado.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/PerguntasActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding>
+            <element signature="method#updatePergunta#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#resetFlags#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#bindViews#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#resetCard#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#responder1#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#responder2#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#responder3#0;class#PerguntasActivity#0" expanded="false" />
+            <element signature="method#responder4#0;class#PerguntasActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+          <folding>
+            <element signature="e#862#2047#0" expanded="false" />
+            <element signature="e#2053#3178#0" expanded="false" />
+            <element signature="e#3184#5291#0" expanded="false" />
+            <element signature="e#5297#5370#0" expanded="false" />
+            <element signature="e#5376#5445#0" expanded="false" />
+            <element signature="e#7621#9725#0" expanded="false" />
+            <element signature="e#9731#9801#0" expanded="false" />
+            <element signature="e#9807#9873#0" expanded="false" />
+            <element signature="e#9879#9936#0" expanded="false" />
+            <element signature="e#9942#11067#0" expanded="false" />
+            <element signature="e#11073#13180#0" expanded="false" />
+            <element signature="e#13186#13259#0" expanded="false" />
+            <element signature="e#13265#13334#0" expanded="false" />
+            <element signature="e#13340#13396#0" expanded="false" />
+            <element signature="e#13403#14527#0" expanded="false" />
+            <element signature="e#14533#16639#0" expanded="false" />
+            <element signature="e#16645#16717#0" expanded="false" />
+            <element signature="e#16723#16791#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/anjoshigor/tipad/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addQuestion#0;class#Database#0" expanded="false" />
+            <element signature="e#33382#33392#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

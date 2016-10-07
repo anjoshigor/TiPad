@@ -8,7 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -33,6 +35,9 @@ public class PerguntasActivity extends AppCompatActivity {
     Intent intentP;
     int numberOfTheQuestion = 0;
     int nota = 0;
+    LayoutInflater inflater;
+    View layoutCerta, layoutErrada;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +49,11 @@ public class PerguntasActivity extends AppCompatActivity {
         checkBoxes = new ArrayList<>(4);
         cards = new ArrayList<>(4);
         flags = new ArrayList<>(4);
+        inflater = getLayoutInflater();
+        layoutCerta = inflater.inflate(R.layout.certa_toast,
+                (ViewGroup) findViewById(R.id.certaToastLinearLayout));
+        layoutErrada = inflater.inflate(R.layout.errada_toast,
+                (ViewGroup) findViewById(R.id.erradaToastLinearLayout));
 
         Intent intent = getIntent();
         assunto = intent.getExtras().getString("assunto");
@@ -169,16 +179,18 @@ public class PerguntasActivity extends AppCompatActivity {
         if(i>=0) {
 
             String respostaEscolhida = String.valueOf(textViews.get(i).getText());
-            Toast acertou = Toast.makeText(getApplicationContext(), "Acertou!", Toast.LENGTH_SHORT);
-            acertou.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+            Toast toast = new Toast(getApplicationContext());
+            toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
+            toast.setDuration(Toast.LENGTH_SHORT);
             resetCard(i);
 
             if(perguntaAtual.getresposta().equals(respostaEscolhida)){
                 nota++;
-                acertou.show();
+                toast.setView(layoutCerta);
+                toast.show();
             } else {
-                acertou.setText("Errou!");
-                acertou.show();
+                toast.setView(layoutErrada);
+                toast.show();
             }
             if(numberOfTheQuestion<5) {
                 perguntaAtual = listaDePerguntas.get(numberOfTheQuestion);
