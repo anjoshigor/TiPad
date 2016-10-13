@@ -198,6 +198,7 @@ public class PerguntasActivity extends AppCompatActivity {
 
             } else {
                 intentP.putExtra("nota", String.valueOf(nota));
+                intentP.putExtra("assunto", assunto);
                 startActivity(intentP);
             }
         } else {

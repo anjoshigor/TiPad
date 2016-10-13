@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class CuriosidadeActivity extends AppCompatActivity {
-    TextView curTextView, doenca1, doenca2, tituloDoenca1, tituloDoenca2;
+    static TextView curTextView, doenca1, doenca2, tituloDoenca1, tituloDoenca2;
     String assunto;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,35 +26,35 @@ public class CuriosidadeActivity extends AppCompatActivity {
     private void updateViews(String assunto) {
         switch (assunto) {
             case "Pâncreas":
-                curTextView.setText(getResources().getString(R.string.introPancreas));
-                doenca1.setText(getResources().getString(R.string.doencaPancreas1));
-                doenca2.setText(getResources().getString(R.string.doencaPancreas2));
-                tituloDoenca1.setText(getResources().getString(R.string.tDoencaPancreas1));
-                tituloDoenca2.setText(getResources().getString(R.string.tDoencaPancreas2));
+                curTextView.setText(getResources().getText(R.string.introPancreas));
+                doenca1.setText(getResources().getText(R.string.doencaPancreas1));
+                doenca2.setText(this.getText(R.string.doencaPancreas2));
+                tituloDoenca1.setText(getResources().getText(R.string.tDoencaPancreas1));
+                tituloDoenca2.setText(getResources().getText(R.string.tDoencaPancreas2));
                 break;
 
             case "Hipófise/Hipotálamo":
-                curTextView.setText(getResources().getString(R.string.introHipot));
-                doenca1.setText(getResources().getString(R.string.doencaHipot1));
-                doenca2.setText(getResources().getString(R.string.doencaHipot2));
-                tituloDoenca1.setText(getResources().getString(R.string.tDoencaHipot1));
-                tituloDoenca2.setText(getResources().getString(R.string.tDoencaHipot2));
+                curTextView.setText(getResources().getText(R.string.introHipot));
+                doenca1.setText(getResources().getText(R.string.doencaHipot1));
+                doenca2.setText(getResources().getText(R.string.doencaHipot2));
+                tituloDoenca1.setText(getResources().getText(R.string.tDoencaHipot1));
+                tituloDoenca2.setText(getResources().getText(R.string.tDoencaHipot2));
                 break;
 
             case "Glândula Adrenal":
-                curTextView.setText(getResources().getString(R.string.introAdrenal));
-                doenca1.setText(getResources().getString(R.string.doencaAdrenal1));
-                doenca2.setText(getResources().getString(R.string.doencaAdrenal2));
-                tituloDoenca1.setText(getResources().getString(R.string.tDoencaAdrenal1));
-                tituloDoenca2.setText(getResources().getString(R.string.tDoencaAdrenal2));
+                curTextView.setText(getResources().getText(R.string.introAdrenal));
+                doenca1.setText(getResources().getText(R.string.doencaAdrenal1));
+                doenca2.setText(getResources().getText(R.string.doencaAdrenal2));
+                tituloDoenca1.setText(getResources().getText(R.string.tDoencaAdrenal1));
+                tituloDoenca2.setText(getResources().getText(R.string.tDoencaAdrenal2));
                 break;
 
             case "Tireóide":
-                curTextView.setText(getResources().getString(R.string.introTireoide));
-                doenca1.setText(getResources().getString(R.string.doencaTireoide1));
-                doenca2.setText(getResources().getString(R.string.doencaTireoide2));
-                tituloDoenca1.setText(getResources().getString(R.string.tDoencaTireoide1));
-                tituloDoenca2.setText(getResources().getString(R.string.tDoencaTireoide2));
+                curTextView.setText(getResources().getText(R.string.introTireoide));
+                doenca1.setText(getResources().getText(R.string.doencaTireoide1));
+                doenca2.setText(getResources().getText(R.string.doencaTireoide2));
+                tituloDoenca1.setText(getResources().getText(R.string.tDoencaTireoide1));
+                tituloDoenca2.setText(getResources().getText(R.string.tDoencaTireoide2));
                 break;
 
             default:

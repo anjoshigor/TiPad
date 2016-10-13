@@ -16,6 +16,8 @@
     </string>
     <string name="action_settings">Configurações</string>
 
+    <!--PANCREAS [OK!]-->
+
     <string name="introPancreas">
         O pâncreas é um órgão com aproximadamente 15 cm de comprimento, 04 de altura e 02 de espessura (formato alongado), dividido em cabeça, corpo e cauda, localizado na cavidade abdominal abaixo do estômago, interligado por um canal (ducto de Wirsung) à primeira porção do intestino delgado, ou seja, o duodeno.\n\n
         Trata-se de uma glândula anfícrina (mista), associada ao sistema digestório humano, com uma porção endócrina produzindo hormônio, e outra porção com função exócrina responsável pela síntese do suco pancreático, contendo enzimas que atuam na digestão de carboidratos (amilase pancreática), lipídeos (lípase pancreática) e proteínas (proteases: tripsina, quimiotripsina e carboxipeptidase). O pâncreas é vascularizado pelas artérias pancreaticoduodenais. A drenagem venosa ocorre através das veias pancreáticas.\n\n
@@ -47,40 +49,58 @@
         Diabetes 1 e 2
     </string>
 
+    <!--HIPOTALAMO [OK!]-->
+
     <string name="introHipot">
         O hipotálamo é uma estrutura do sistema nervoso central (SNC) que está envolvida em uma vários processos fisiológicos, como controle da temperatura corporal e ingestão alimentar. De fato, o hipotálamo representa, funcionalmente, uma interface entre os sistemas nervoso e endócrino. A eminência mediana hipotalâmica é o ponto de convergência e integração final de informações criadas em diferentes regiões do organismo. Após processamento e ajuste fino, essas informações são transmitidas à glândula hipófise, por mecanismos que envolvem a liberação de hormônios específicos.
         \n\n
-        A hipófise, mantém-se conectada, por meio da haste hipofisária ou pedúnculo hipofisário, ao sistema nervoso central (SNC), mais precisamente ao hipotálamo, com o qual guarda importantes relações anatômicas e funcionais. Em humanos, a hipófise apresenta-se dividida em basicamente duas porções: \n1) hipófise anterior ou adeno-hipófise e \n2) hipófise posterior ou neuro-hipófise.
+        A hipófise, mantém-se conectada, por meio da haste hipofisária ou pedúnculo hipofisário, ao sistema nervoso central (SNC), mais precisamente ao hipotálamo, com o qual guarda importantes relações anatômicas e funcionais. Em humanos, a hipófise apresenta-se dividida em basicamente duas porções: \n
+        \n<b>1)</b> hipófise anterior ou adeno-hipófise e \n
+        \n<b>2)</b> hipófise posterior ou neuro-hipófise.
         \n
     </string>
 
      <string name="doencaHipot1">
-        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
+        Trata-se de uma desordem, na qual a estrutura óssea na base do crânio, conhecido como sela túrcica, é maior do que o normal, com a hipófise encontrada em seu interior apresentando tamanho anormal.
+        \n\n
+        Existem dois tipos da síndrome da sela vazia:
+        \n\n
+        <b>Primária:</b> quando um diminuto defeito anatômico acima da hipófise aumenta a pressão na sela túrcica, levando ao achatamento dessa glândula. Este tipo está relacionado à obesidade e hipertensão em mulheres.
+        \n\n
+        <b>Secundária:</b> resulta da regressão da hipófise no interior da sela túrcica, após uma lesão, cirurgia ou radioterapia.
+        \n\n
+        Nas crianças, a síndrome da sela vazia pode estar relacionada ao início precoce da puberdade, à deficiência de hormônio do crescimento, a tumores na hipófise ou à disfunção dessa glândula. Com exceção do caso de associação com outras desordens, o tratamento é somente de suporte e sintomático. Procedimento cirúrgico pode ser necessário em alguns casos.
         \n
-        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
-        \n
-        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
-    </string>
+     </string>
 
     <string name="doencaHipot2">
-        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
-        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
+        Resultante da produção excessiva do hormônio de crescimento. Quando ocorre na infância leva ao gigantismo. Em adultos a acromegalia é caracterizada por aumento das mãos e pés, face característica com embrutecimento das feições, alargamento do nariz, aumento dos lábios e língua, aumento da fronte, sudorese excessiva e dores articulares. Pode acarretar também outras doenças como diabetes, aumento do coração, hipertensão, aumento da tiróide.
+        \n\n
+        <b>Quais são as causas:</b>\n
+        A maioria dos casos é causada por um tumor benigno dessa glândula, chamado de adenoma da hipófise.
+        \n\n
+        <b>Qual é a fisiopatologia da acromegalia:</b> \n
+        A glândula hipófise produz vários hormônios, entre eles o hormônio responsável pelo crescimento. Quando lançado na corrente sanguínea ele induz o fígado a produzir outro hormônio que estimula o crescimento do esqueleto e outros órgãos e tecidos, gerando os sinais e sintomas característicos da acromegalia ou gigantismo. Nos adultos, um tumor benigno é a causa mais comum da produção de hormônio do crescimento.
+        \n\n
+        <b>Tratamento:</b> \n
+        O tratamento da acromegalia visa diminuir a produção do hormônio do crescimento e reduzir os efeitos negativos dos tumores, se for o caso. Algumas vezes uma cirurgia através do nariz, pode ser necessária para extrair o tumor na glândula hipófise.
         \n
-        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
-        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
-
     </string>
 
     <string name="tDoencaHipot1">
-        Câncer de Pâncreas
+        Sindrome da Sela Vazia
     </string>
 
     <string name="tDoencaHipot2">
-        Diabetes 1 e 2
+        Acromegalia
     </string>
 
+    <!--TIREOIDE-->
+
     <string name="introTireoide">
-        Teste
+        A palavra "tireoide" vem dos termos gregos <i>"tireos"</i>, que se refere aos escudos das falanges romanas, e <i>"oide"</i> = em forma de. A glândula localiza-se sobre a cartilagem de mesmo nome (tireoide) que tem a mesma configuração.
+        Com forma bem parecida com a de uma borboleta, a <b>glândula tireoide</b> é localizada na parte anterior do pescoço, logo abaixo do Pomo de Adão. Reguladora da função de importantes órgãos como o coração, o cérebro, o fígado e os rins, ela produz os hormônios T3 (triiodotironina) e o T4 (tiroxina).
+
     </string>
 
     <string name="doencaTireoide1">
@@ -108,32 +128,29 @@
         Diabetes 1 e 2
     </string>
 
+    <!--ADRENAL-->
+
     <string name="introAdrenal">
         Teste
     </string>
 
      <string name="doencaAdrenal1">
-        O câncer de pâncreas é raro em jovens com menos de 30 anos. Ele atinge praticamente na mesma proporção homens e mulheres, em geral, com idade superior a 50 anos, especialmente entre os 65 e os 80 anos.\n
-        \n
-        Na maioria dos casos, não é possível determinar a causa da doença, mas o fator de risco mais importante é o cigarro. Os outros são: pancreatite crônica, aplicações anteriores de radioterapia, diabetes mellitus tipo 2, exposição prolongada a pesticidas e produtos químicos, certas síndromes genéticas e cirurgias para tratamento de úlceras ou retirada da vesícula biliar.\n
-        \n
-        Os tipos mais comuns da doença são o adenocarcinoma (o mais frequente e mais relacionado com o tabagismo) e os tumores das células das ilhotas pancreáticas. O câncer de pâncreas é uma doença que demora a apresentar sintomas, o que retarda e dificulta o diagnóstico. Quando eles aparecem, os mais comuns são: dor abdominal de leve ou forte intensidade que se irradia para as costas, icterícia, perda de apetite e de peso, cansaço, anemia, diabetes tipo 2.\n
-    </string>
+        A Doença de Addison é o nome dado à condição em que as glândulas adrenais não são capazes de produzir quantidades suficientes de seus hormônios devido a destruição das células do córtex, responsáveis pela produção, e é potencialmente fatal.
+         Ela foi descrita pela primeira vez pelo médico inglês Thomas Addison, em 1849. Os sintomas, geralmente graduais e progressivos, incluem hiperpigmentação de pele e mucosas, fraqueza, perda de peso, hipotensão postural e dor abdominal.
+          Sem tratamento, a doença pode evoluir para uma crise adrenal, cursando com hipertensão arterial, vômitos, lombalgia e perda de consciência.
+         O tratamento envolve tomar hormônios para repor aqueles não produzidos pelas glândulas.</string>
 
     <string name="doencaAdrenal2">
-        <b>Diabetes Tipo 1 (DM 1) -</b> Essa forma de diabetes é resultado da destruição das células beta pancreáticas por um processo imunológico, ou seja, pela formação de anticorpos pelo próprio organismo contra as células beta levando a deficiência de insulina. Nesse caso podemos detectar em exames de sangue a presença desses anticorpos que são: ICA, IAAs, GAD e IA-2. Em geral costuma acometer crianças e adultos jovens, mas pode ser desencadeado em qualquer faixa etária.\n
-        O quadro clínico mais característico é de um início relativamente rápido (alguns dias até poucos meses) de sintomas como: sede, diurese e fome excessivas, emagrecimento, cansaço e fraqueza. Se o tratamento não for realizado rapidamente, os sintomas podem evoluir para desidratação severa, sonolência, vômitos, dificuldades respiratórias e coma. Esse quadro mais grave é conhecido como Cetoacidose Diabética e necessita de internação para tratamento.\n
-        \n
-        <b>Diabetes Tipo 2 (DM 2) -</b> Nesta forma de diabetes está incluída a grande maioria dos casos (cerca de 90% dos pacientes diabéticos). Nesses pacientes, a insulina é produzida pelas células beta pancreáticas, porém, sua ação está dificultada, caracterizando um quadro de resistência insulínica. Isso vai levar a um aumento da produção de insulina para tentar manter a glicose em níveis normais. Quando isso não é mais possível, surge o diabetes. A instalação do quadro é mais lenta e os sintomas - sede, aumento da diurese, dores nas pernas, alterações visuais e outros - podem demorar vários anos até se apresentarem. Se não reconhecido e tratado a tempo, também pode evoluir para um quadro grave de desidratação e coma.\n
-        Ao contrário do Diabetes Tipo 1, há geralmente associação com aumento de peso e obesidade, acometendo principalmente adultos a partir dos 50 anos. Contudo, observa-se, cada vez mais, o desenvolvimento do quadro em adultos jovens e até crianças. Isso se deve, principalmente, pelo aumento do consumo de gorduras e carboidratos aliados à falta de atividade física.\n
-
+        A Síndrome de Cushing é uma doença provocada pela alta concentração no corpo de hormônio cortisol, conhecido também como o hormônio do estresse. Segundo a Organização Mundial da Saúde (OMS), aproximadamente 50 mil pessoas vivem com essa doença atualmente. Os sinais e sintomas podem incluir: hipertensão arterial,obesidade centrípeta, estrias avermelhadas e arroxeadas em abdome e raiz dos membros, atrofia e fraqueza muscular em membros, equimoses, face arredondada ("face de lua cheia"), acne, excesso de gordura entre os ombros e acima das clavículas, ossos frágeis.
+        A síndrome foi descrita pela primeira vez por Harvey Cushing, em 1932, e também pode ocorrer em outros animais, como cães, gatos e equinos.
+        Como tratamento, podem ser administrados medicamentos inibidores do cortisol.
     </string>
 
     <string name="tDoencaAdrenal1">
-        Câncer de Pâncreas
+        Doença de Addison
     </string>
 
     <string name="tDoencaAdrenal2">
-        Diabetes 1 e 2
+        Sindrome de Cushing
     </string>
 </resources>

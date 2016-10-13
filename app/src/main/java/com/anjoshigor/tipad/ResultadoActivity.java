@@ -10,7 +10,8 @@ import android.widget.Toast;
 public class ResultadoActivity extends AppCompatActivity {
 
     TextView nota;
-    Intent intent;
+    Intent intent, intentPerguntas;
+    String assunto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,16 +19,19 @@ public class ResultadoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resultado);
         nota = (TextView) findViewById(R.id.nota);
         String notaRecebida = getIntent().getStringExtra("nota");
+        assunto = getIntent().getStringExtra("assunto");
         nota.setText(notaRecebida);
         intent = new Intent(getBaseContext(), MainActivity.class);
+        intentPerguntas = new Intent(getBaseContext(), PerguntasActivity.class);
     }
 
     @Override
     public void onBackPressed() {
-        Toast.makeText(getBaseContext(), "Aperte para jogar novamente", Toast.LENGTH_SHORT).show();
+        startActivity(intent);
     }
 
     public void jogarNovamente(View v){
-        startActivity(intent);
+        intentPerguntas.putExtra("assunto", assunto);
+        startActivity(intentPerguntas);
     }
 }

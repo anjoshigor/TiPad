@@ -34,10 +34,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:textSize="18sp"
                 android:fontFamily="sans-serif"
-                android:textSize="16sp"
-                android:text="@string/introPancreas"
-                android:textStyle="bold" />
+                android:text="@string/introPancreas" />
 
             <TextView
                 android:id="@+id/doencaTituloTextView1"
@@ -53,12 +52,11 @@
             <TextView
                 android:id="@+id/doencaTextView1"
                 android:layout_width="match_parent"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="sans-serif"
-                android:text="Doença1"
-                android:textStyle="bold" />
+                android:text="Doença1" />
 
             <TextView
                 android:id="@+id/doencaTituloTextView2"
@@ -74,12 +72,11 @@
             <TextView
                 android:id="@+id/doencaTextView2"
                 android:layout_width="match_parent"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="sans-serif"
-                android:text="Doença2"
-                android:textStyle="bold" />
+                android:text="Doença2" />
         </LinearLayout>
 
     </ScrollView>
